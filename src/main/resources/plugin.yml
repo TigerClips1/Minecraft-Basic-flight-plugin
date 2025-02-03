@@ -1,0 +1,12 @@
+name: FlightPlugin
+version: '1.0-SNAPSHOT'
+main: me.tigerclips1.flightPlugin.FlightPlugin
+api-version: '1.21'
+author: TigerClips1
+commands:
+  fly:
+    description: Plugin that make you fly
+    usage: /fly
+    permission: fly
+    aliases: [f, flight, flys]
+    permission-message: You do not Have permission
